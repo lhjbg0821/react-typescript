@@ -1,8 +1,7 @@
-import React from "react";
-import "./App.css";
+import React, { FC } from "react";
 
-function App() {
-  return <div className="">Hello, TypeSCript!</div>;
-}
+const App: FC = () => {
+  return <div className="bg-red-300">Hello, React-TS!!</div>;
+};
 
 export default App;
